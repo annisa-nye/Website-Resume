@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--==================== UNICONS ====================-->
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+		/>
+
+		<!--==================== SWIPER CSS ====================-->
+		<link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+		<!--==================== CSS ====================-->
+		<link rel="stylesheet" href="assets/css/styles.css" />
+
+		<!--==================== EMAIL SERVICE ====================-->
+		<!-- Sweet Alert -->
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<!-- Email.JS -->
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+		></script>
+		<script type="text/javascript">
+			(function () {
+				emailjs.init('gF3M_-jS8KuvoCpV4');
+			})();
+		</script>
+
+		<!--==================== CALENDAR SERVICE ====================-->
+		<link
+			href="https://assets.calendly.com/assets/external/widget.css"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://assets.calendly.com/assets/external/widget.js"
+			type="text/javascript"
+			async
+		></script>
+
+		<!--==================== TITLE and Favicon ====================-->
+		<title>Annisa's Portfolio 👋</title>
+		<!-- <link rel="shortcut icon" type="image/png" href="assets/img/"> -->
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="./assets/favicon_io/108aa5286fff0.ico">
+		
+		<!-- <link rel="manifest" href="/site.webmanifest"> -->
+
+		<!-- HTML Meta Tags -->
+		<title>Annisa's Portfolio 👋</title>
+		<meta name="description" content="...." />
+
+	</head>
+
+	<body>
+		<!--==================== HEADER ====================-->
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="#" class="nav__logo">Annisa Nye</a>
+
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list grid">
+						<li class="nav__item">
+							<a href="#home" class="nav__link active-link">
+								<i class="uil uil-estate nav__icon"></i> Home
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">
+								<i class="uil uil-user nav__icon"></i> About
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#skills" class="nav__link">
+								<i class="uil uil-file-alt nav__icon"></i> Skills
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#projects" class="nav__link">
+								<i class="uil uil-briefcase-alt nav__icon"></i> Projects
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#paper" class="nav__link">
+								<i class="uil uil-scenery nav__icon"></i> Reports
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#contact" class="nav__link">
+								<i class="uil uil-message nav__icon"></i> Contact
+							</a>
+						</li>
+					</ul>
+					<i class="uil uil-times nav__close" id="nav-close"></i>
+				</div>
+
+				<div class="nav__btns">
+					<!-- Theme Change Buttons -->
+					<i class="uil uil-moon change-theme" id="theme-button"></i>
+
+					<div class="nav__toggle" id="nav-toggle">
+						<i class="uil uil-apps"></i>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!--==================== MAIN ====================-->
+		<main class="main">
+			<!--==================== HOME ====================-->
+			<section class="home section" id="home" data-id="home">
+				<div class="home__container container grid">
+					<div class="home__content grid">
+						<div class="home__social">
+							<a
+								href="https://www.linkedin.com/in/annisanye/"
+								target="_blank"
+								class="home__social-icon"
+							>
+								<i class="uil uil-linkedin-alt"></i>
+                                <p>LinkedIn</p>
+							</a>
+							<a
+								href="https://github.com/annisa-nye"
+								target="_blank"
+								class="home__social-icon"
+							>
+								<i class="uil uil-github-alt"></i>
+                                <p>GitHub</p>
+							</a>
+                            <a href="#contact" class="button button--flex">
+								Contact Me <i class="uil uil-message button__icon"></i>
+							</a>
+						</div>
+
+						<div class="home__data">
+							<h1 class="home__title">Hi, my name is Annisa.</h1>
+							<h3 class="home__subtitle"><em>Aspiring Web Developer</em></h3>
+							<p class="home__description">
+                                I am currently upskilling to pursue my passion for web design. As an aspiring web developer, I'm dedicated to creating user-friendly applications that make a positive impact. I am enthusiastic about bringing innovative solutions to a dynamic team and contributing to projects that drive meaningful change.
+							</p>
+						</div>
+                       
+					</div>
+                    <div class="home__scroll">
+					    <a href="#about" class="home__scroll-button button--flex">
+						    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+						    <span class="home__scroll-name">Scroll Down</span>
+						    <i class="uil uil-arrow-down home__scroll-arrow"></i>
+					    </a>
+				    </div>    
+				</div>
+			</section>
+
+			<!--==================== ABOUT ====================-->
+			<section class="about section" id="about" data-id="about">
+				<h2 class="section__title">About Me</h2>
+				<span class="section__subtitle">Introduction</span>
+
+				<div class="about__container container grid">
+					<img
+						src="./assets/img/profile pic.JPG"
+						alt="Annsia Nye"
+						class="about__img"
+					/>
+
+					<div class="about__data">
+						<p class="about__description">
+							My experience spans developing, leading, and completing projects, utilizing my strong analytical background in biotechnology and technical skills in web development. I've successfully collaborated with cross-functional teams, managed customer care operations, and maintained online platforms.
+						</p>
+
+						<div class="about__info">
+                            <div>
+								<span class="about__info-title">6+</span>
+								<span class="about__info-name"
+									>Years Academic<br />
+									Experience</span
+								>
+							</div>
+
+							<div>
+								<span class="about__info-title">4</span>
+								<span class="about__info-name"
+									>Programming <br />
+									Languages</span
+								>
+							</div>
+
+							<div>
+								<span class="about__info-title">3</span>
+								<span class="about__info-name"
+									>Projects <br />
+									Completed</span
+								>
+							</div>
+
+							
+						</div>
+
+						<div class="about__buttons">
+							<a
+								href="https://drive.google.com/file/d/1masuH7zHXxnFGAVGXqBeVZD1D52GXQcN/view?usp=sharing"
+                                target: _blank
+								class="button button--flex"
+							>
+								Download CV<i class="uil uil-download-alt button__icon"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--==================== SKILLS ====================-->
+			<section class="skills section" id="skills" data-id="skills">
+				<h2 class="section__title">Skills</h2>
+				<span class="section__subtitle">Technical Competence</span>
+
+				<div class="skills__container container grid">
+					<div>
+						<!--==================== SKILLS 1 ====================-->
+						<div class="skills__content skills__open">
+							<div class="skills__header">
+								<i class="uil uil-brackets-curly skills__icon"></i>
+
+								<div>
+									<h1 class="skills__titles">Web Development</h1>
+									<!-- <span class="skills__subtitle">More than 8 years</span> -->
+								</div>
+
+								<i class="uil uil-angle-down skills__arrow"></i>
+							</div>
+
+							<div class="skills__list grid">
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">Responsive Design</h3>
+										<!--<span class="skills__number">Advanced</span> -->
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">User Experience</h3>
+										<!--<span class="skills__number">Advanced</span> -->
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">Testing and Debugging</h3>
+										<!--<span class="skills__number">Advanced</span> -->
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--==================== SKILLS 2 ====================-->
+						<div class="skills__content skills__close">
+							<div class="skills__header">
+								<i class="uil uil-vector-square skills__icon"></i>
+
+								<div>
+                                    <br>
+									<h1 class="skills__titles">Frameworks and Libraries</h1>
+									<!-- <span class="skills__subtitle">More than 2 years</span> -->
+								</div>
+
+								<i class="uil uil-angle-down skills__arrow"></i>
+							</div>
+
+							<div class="skills__list grid">
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">React</h3>
+										<!--<span class="skills__number">Proficient</span>-->
+									</div>
+									<div class="skills__bar">
+										<!--<span class="skills__percantage skills__80"></span>-->
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">Bootstrap</h3>
+									</div>
+									<div class="skills__bar">
+										<!--<span class="skills__percantage skills__20"></span>-->
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+                                <div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">Tailwind CSS</h3>
+									</div>
+									<div class="skills__bar">
+										<!--<span class="skills__percantage skills__20"></span>-->
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<!--==================== SKILLS 3 ====================-->
+						<div class="skills__content skills__close">
+							<div class="skills__header">
+								<i class="uil uil-arrow skills__icon"></i>
+
+								<div>
+									<h1 class="skills__titles">Coding Languages</h1>
+									<!-- <span class="skills__subtitle">More than 2 years</span> -->
+								</div>
+
+								<i class="uil uil-angle-down skills__arrow"></i>
+							</div>
+
+							<div class="skills__list grid">
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">Javascript</h3>
+										<!--<span class="skills__number">Proficient</span>-->
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">HTML | CSS</h3>
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">Python</h3>
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">SQL</h3>
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--==================== SKILLS 4 ====================-->
+						<br>
+                        <div class="skills__content skills__close">
+							<div class="skills__header">
+								<i class="uil uil-code-branch skills__icon"></i>
+
+								<div>
+									<h1 class="skills__titles">Tools</h1>
+									<!-- <span class="skills__subtitle">More than 2 years</span> -->
+								</div>
+
+								<i class="uil uil-angle-down skills__arrow"></i>
+							</div>
+
+							<div class="skills__list grid">
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">Git | GitHub</h3>
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">Command Line</h3>
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">Shopify</h3>
+										<!--<span class="skills__number">Proficient</span>-->
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__titles">
+										<h3 class="skills__name">
+											MS Office
+										</h3>
+									</div>
+									<div class="skills__bar">
+										<span class="skills__percantage skills__sys-code"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--==================== QUALIFICATION ====================-->
+			<section class="qualification section">
+				<h2 class="section__title">Qualifications</h2>
+				<span class="section__subtitle">Academic and Professional Career</span>
+
+				<div class="qualification__container container">
+					<div class="qualification__tabs">
+						<div
+							class="qualification__button button--flex qualification__active"
+							data-target="#education"
+						>
+							<i class="uil uil-graduation-cap qualification__icon"></i>
+							Education
+						</div>
+
+						<div class="qualification__button button--flex" data-target="#work">
+							<i class="uil uil-briefcase-alt qualification__icon"></i>
+							Work
+						</div>
+					</div>
+					<div class="qualification__sections">
+						<!--==================== QUALIFICATION CONTENT 1 ====================-->
+						<div
+							class="qualification__content qualification__active"
+							data-content
+							id="education"
+						>
+							<!--==================== QUALIFICATION  1 ====================-->
+							<div class="qualification__data">
+								<div>
+									<span class="qualification__degree">B.Sc.</span>
+									<h3 class="qualification__title"> <a href="https://drive.google.com/file/d/1KSpiXZ4yM_lcXqKLldBovWGP8jcrRFAh/view?usp=sharing" target="_blank">
+										Human Biology and Physiology
+									</a></h3>
+									<span class="qualification__subtitle"
+										>The University of Western Australia</span
+									>
+									<div class="qualification__calendar">
+										<i class="uil uil-calendar-alt"></i>
+										2017
+									</div>
+								</div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<span class="qualification__line"></span>
+								</div>
+							</div>
+
+							<!--==================== QUALIFICATION  2 ====================-->
+							<div class="qualification__data">
+								<div></div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<span class="qualification__line"></span>
+								</div>
+
+								<div>
+									<span class="qualification__degree">M.Sc.</span>
+									<h4 class="qualification__title"><a href="https://drive.google.com/file/d/1w9qPcfdUoHzW42buM5-HYS_mNJq1UOnq/view?usp=sharing" target="_blank">
+										Biotechnology
+                                    </a></h4>
+									<span class="qualification__subtitle">Monash University</span>
+									<div class="qualification__calendar">
+										<i class="uil uil-calendar-alt"></i>
+										2023
+									</div>
+								</div>
+							</div>
+
+							<!--==================== QUALIFICATION  3 ====================-->
+							<div class="qualification__data">
+								<div>
+									<span class="qualification__degree">Bootcamp</span>
+									<h3 class="qualification__title">Front End Web Development</h3>
+									<span class="qualification__subtitle"
+										>Generation Australia</span>
+									<div class="qualification__calendar">
+										<i class="uil uil-calendar-alt"></i>
+										2024
+									</div>
+								</div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<!-- <span class="qualification__line"></span> -->
+								</div>
+							</div>
+
+							<!--==================== QUALIFICATION  4 ====================-->
+							<div class="qualification__data">
+								<!-- <div></div> -->
+
+								<!-- <div>
+                                    <span class="qualification__rounder"></span> -->
+								<!-- <span class="qualification__line"></span> -->
+								<!-- </div> -->
+
+								<!-- <div>
+                                    <h3 class="qualification__title">Nuclear Engineer</h3>
+                                    <span class="qualification__subtitle">Hacettepe University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2008 - 2013
+                                    </div>
+                                </div> -->
+							</div>
+						</div>
+
+						<!--==================== QUALIFICATION CONTENT 2 ====================-->
+						<div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION  1 ====================-->
+							<div class="qualification__data">
+								<div></div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<span class="qualification__line"></span>
+								</div>
+
+								<div>
+									<h3 class="qualification__title">Small Business Owner</h3>
+									<span class="qualification__subtitle" id="anywears_btn">Any Wears Shop</span> 
+                                    <a href="https://any-wears.shop/" target="_blank"
+									class="button button--flex button--small paper__button">
+									Website
+									<i class="uil uil-arrow-right button__icon"></i>
+								    </a>
+                        
+									<div class="qualification__calendar">
+                                        <br>
+										<i class="uil uil-calendar-alt"></i>
+										2023 - Present
+									</div>
+								</div>
+							</div>
+
+							<!--==================== QUALIFICATION  2 ====================-->
+							<div class="qualification__data">
+								<div>
+									<h3 class="qualification__title">Customer Care Officer</h3>
+									<span class="qualification__subtitle">Genomic Diagnostics</span>
+									<div class="qualification__calendar">
+										<i class="uil uil-calendar-alt"></i>
+										2023
+									</div>
+								</div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<span class="qualification__line"></span>
+								</div>
+							</div>
+
+							<!--==================== QUALIFICATION  3 ====================-->
+							<div class="qualification__data">
+								<div></div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<span class="qualification__line"></span>
+								</div>
+
+								<div>
+									<h3 class="qualification__title">Operations Manager (Intern)</h3>
+									<span class="qualification__subtitle">Monash Micro Imaging</span>
+									<div class="qualification__calendar">
+										<i class="uil uil-calendar-alt"></i>
+										2022
+									</div>
+								</div>
+							</div>
+
+							<!--==================== QUALIFICATION  4 ====================-->
+							<div class="qualification__data">
+								<div>
+									<h3 class="qualification__title">Client Services</h3>
+									<span class="qualification__subtitle">Park Hyatt Melbourne</span>
+									<div class="qualification__calendar">
+										<i class="uil uil-calendar-alt"></i>
+										2021 - 2023
+									</div>
+								</div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<span class="qualification__line"></span>
+								</div>
+							</div>
+
+							<!--==================== QUALIFICATION  5 ====================-->
+							<div class="qualification__data">
+								<div></div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<!-- <span class="qualification__line"></span> -->
+								</div>
+
+								<div>
+									<h3 class="qualification__title">Labratory Assistant</h3>
+									<span class="qualification__subtitle">CSIRO</span>
+									<div class="qualification__calendar">
+										<i class="uil uil-calendar-alt"></i>
+										2021
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--==================== PROJECTS ====================-->
+			<section class="projects section" id="projects" data-id="projects">
+				<h2 class="section__title">Projects</h2>
+				<span class="section__subtitle">Involved Projects</span>
+
+				<div class="projects__container container grid">
+					<!--==================== PROJECTS 1 ====================-->
+					<div class="projects__content">
+						<div>
+							<i class="uil uil-swatchbook projects__icon"></i>
+							<h3 class="projects__title">Any Wears <br> Website</h3>
+						</div>
+
+						
+                    <span class="button button--flex button--small button--link projects__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="projects__modal">
+                        <div class="projects__modal-content">
+                            <h4 class="projects__modal-title">Development and Design of Anywears Shopify E-commerce Site</h4>
+                            <i class="uil uil-times projects__modal-close"></i>
+
+                            <ul class="projects__modal-projects grid">
+                                <li class="projects__modal-project">
+                                    <i class="uil uil-check-circle projects__modal-icon"></i>
+                                    <p>Custom theme development and optimization for <strong>Shopify</strong> </p>
+                                </li>
+                                <li class="projects__modal-project">
+                                    <i class="uil uil-check-circle projects__modal-icon"></i>
+                                    <p>Integration of advanced e-commerce features and third-party apps</p>
+                                </li>
+                                <li class="projects__modal-project">
+                                    <i class="uil uil-check-circle projects__modal-icon"></i>
+                                    <p>SEO and performance optimization</p>
+                                </li>
+                            </ul>
+                            <br>
+                            <a href="https://any-wears.shop/" target="_blank"
+									class="button button--flex button--small paper__button">
+									Website
+									<i class="uil uil-arrow-right button__icon"></i>
+								    </a>
+                        </div>
+                    </div>
+                </div>
+					<!--==================== PROJECTS 2 ====================-->
+					<div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">Monash Micro Imaging Website</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link projects__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="projects__modal">
+                        <div class="projects__modal-content">
+                            <h4 class="projects__modal-title">Website Improvement for Monash Micro Imaging</h4>
+                            <i class="uil uil-times projects__modal-close"></i>
+
+                            <ul class="projects__modal-projects grid">
+                                <li class="projects__modal-project">
+                                    <i class="uil uil-check-circle projects__modal-icon"></i>
+                                    <p>Improved user experience for easier sign-up and onboarding</p>
+                                </li>
+                                <li class="projects__modal-project">
+                                    <i class="uil uil-check-circle projects__modal-icon"></i>
+                                    <p>Created detailed standard operating procedures, work instructions and form templates</p>
+                                </li>
+                                <li class="projects__modal-project">
+                                    <i class="uil uil-check-circle projects__modal-icon"></i>
+                                    <p>Ensured compliance with ISO 9001 standards</p>
+                                </li>
+                            </ul>
+                            <br>
+                            <a href="https://drive.google.com/file/d/1anDPLR4FATyJhRTN6s9QBap0K6Zlj9fS/view?usp=sharing" target="_blank"
+									class="button button--flex button--small paper__button">
+									Portfolio
+									<i class="uil uil-arrow-right button__icon"></i>
+								    </a>
+                        </div>
+                    </div>
+                    </div>  
+
+					<!--==================== PROJECTS 3 ====================-->
+					<div class="projects__content">
+						<div>
+							<i class="uil uil-swatchbook projects__icon"></i>
+							<h3 class="projects__title">Fluffy Sock <br> Store</h3>
+						</div>
+
+						<span
+							class="button button--flex button--small button--link projects__button"
+						>
+							View More
+							<i class="uil uil-arrow-right button__icon"></i>
+						</span>
+
+						<div class="projects__modal">
+							<div class="projects__modal-content">
+								<h4 class="projects__modal-title">
+									Created a interactive website to sell Fluffy Socks
+								</h4>
+								<i class="uil uil-times projects__modal-close"></i>
+
+								<ul class="projects__modal-projects grid">
+									<li class="projects__modal-project">
+										<i class="uil uil-check-circle projects__modal-icon"></i>
+										<p>Programming</p>
+									</li>
+									<li class="projects__modal-project-ind">
+										<i class="uil uil-check projects__modal-icon"></i>
+										<p>Structing the webpage using <strong>HTML</strong></p>
+									</li>
+									<li class="projects__modal-project-ind">
+										<i class="uil uil-check projects__modal-icon"></i>
+										<p>Styling the webpage using <strong>CSS</strong> for layout, colors and fonts</p>
+									</li>
+                                    <li class="projects__modal-project-ind">
+										<i class="uil uil-check projects__modal-icon"></i>
+										<p>Adding interactivity, manipulating the DOM to update the content dynamically and adding event handlers such as clicks using <strong>Javascript</strong></p>
+									</li>
+                                   <li class="projects__modal-project">
+										<i class="uil uil-check-circle projects__modal-icon"></i>
+										<p>Responsive Design</p>
+									</li>
+                                    <li class="projects__modal-project">
+										<i class="uil uil-check-circle projects__modal-icon"></i>
+										<p>Fetching data from external APIs and displaying it on the webpage.</p>
+									</li>
+                                    <li class="projects__modal-project">
+										<i class="uil uil-check-circle projects__modal-icon"></i>
+										<p>Deploying the website using GitHub Pages for hosting.</p>
+									</li>
+                                </li>
+
+								</ul>
+                                <br>
+                                <a href="https://annisa-nye.github.io/GA-Javascript-Project/index.html" target="_blank"
+									class="button button--flex button--small paper__button">
+									Website
+									<i class="uil uil-arrow-right button__icon"></i>
+								    </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--==================== PAPERS ====================-->
+			<section class="paper section" id="paper" data-id="paper">
+				<h2 class="section__title">Biotechnology Reports</h2>
+				<span class="section__subtitle"
+					>As part of the Master of Biotechnology program at Monash
+					University</span
+				>
+
+				<div class="paper__container container swiper">
+					<div class="swiper-wrapper">
+						<!--==================== PAPER 1 ====================-->
+						<div class="paper__content grid swiper-slide">
+							<img
+								src="./assets/img/brm5011 logo.png"
+								alt="Bioinformatics Report"
+								class="paper__img"
+							/>
+
+							<div class="paper__dat">
+								<h3 class="paper__title">Bioinformatics Report</h3>
+								<p class="paper__description">
+									Uncovering novel targets for COVID19 therapy using Proteomic
+									and Transcriptomic data.
+								</p>
+								<p class="paper_skills">
+									<strong>Skills</strong>: Statistical Analysis, Bioinformatics
+									Databases, Differential Expression Analysis, Pathway Analysis
+									<br />
+									<br />
+								</p>
+								<p class="paper_tools">
+									<strong>Tools:</strong> 
+                                    <ul>
+                                        <li>R (limma package)</li>
+                                        <li>Gene Expression Omnibus</li>
+                                        <li>ENRICHR</li>
+                                        <li>DEGUST</li>
+                                    </ul>
+									<br />
+									<br />
+								</p>
+								<!-- Embedded Report -->
+								<!-- 
+								<iframe
+									src="https://drive.google.com/file/d/1n1Zm26ZxbzUzTz2AXFwCoruKkWFaOI8l/preview"
+									width="640"
+									height="480"
+									allow="autoplay"
+								></iframe> -->
+
+								<!-- External Link to Report -->
+								<a
+									href="https://drive.google.com/file/d/1n1Zm26ZxbzUzTz2AXFwCoruKkWFaOI8l/view?usp=sharing"
+									target="_blank"
+									class="button button--flex button--small paper__button"
+								>
+									Read
+									<i class="uil uil-arrow-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+
+						<!--==================== PAPER 2 ====================-->
+						<div class="paper__content grid swiper-slide">
+							<img
+								src="./assets/img/gen5010 logo.png"
+								alt="advanced genetics report"
+								class="paper__img"
+							/>
+
+							<div class="paper__dat">
+								<h3 class="paper__title">Research Proposal</h3>
+								<p class="paper__description">
+									Investigating the protective effect of omega-3 fatty acids in the pathogensis of atopic dermatitis using a transgenic knock-in mice model.  
+								</p>
+                                <p class="paper_skills">
+									<strong>Skills</strong>: Critical Thinking, Literature Review, Experimental Design, Sampling Design
+									<br />
+									<br />
+								</p>
+								<p class="paper_tools">
+									<strong>Tools:</strong> 
+                                    <ul>
+                                        <li>BioRender</li>
+                                        <li>GraphPad Prism</li>
+                                        <li>EndNote</li>
+                                    </ul>
+									<br />
+									<br />
+								</p>
+								<a
+									href="https://drive.google.com/file/d/1MOHn0wt73qEOFOQt-yv35nxlvT-VKxRV/view?usp=sharing"
+									target="_blank"
+									class="button button--flex button--small paper__button"
+								>
+									Read
+									<i class="uil uil-arrow-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+
+						<!--==================== PAPER 3 ====================-->
+						<div class="paper__content grid swiper-slide">
+							<img
+								src="./assets/img/mph5259 logo.png"
+								alt="Integral experiment test facility"
+								class="paper__img"
+							/>
+
+							<div class="paper__dat">
+								<h3 class="paper__title">Critical Analysis</h3>
+								<p class="paper__description">
+									Evaluation of the Australian Government's National Suicide and Self-Harm Monitoring System
+								</p>
+                               <p class="paper_skills">
+									<strong>Skills</strong>: Policy Analysis and Evaluation, Data Analysis, Literature Review, Public Health Knowledge
+									<br />
+									<br />
+								</p>
+								<p class="paper_tools">
+									<strong>Tools:</strong> 
+                                    <ul>
+                                        <li>Databases</li>
+                                        <li>EndNote</li>
+                                    </ul>
+									<br />
+									<br />
+								</p>
+								<a
+									href="https://drive.google.com/file/d/1Dkxhjay1JhfTjDQFvYRoPCjJsnMDBcKA/view?usp=sharing"
+									target="_blank"
+									class="button button--flex button--small paper__button"
+								>
+									Read
+									<i class="uil uil-arrow-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Add Arrows -->
+					<div class="swiper-button-next">
+						<i class="uil uil-angle-right-b swiper-paper-icon"></i>
+					</div>
+					<div class="swiper-button-prev">
+						<i class="uil uil-angle-left-b swiper-paper-icon"></i>
+					</div>
+
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+
+
+			<!--==================== CONTACT ME ====================-->
+			<section class="contact section" id="contact" data-id="contact">
+				<h2 class="section__title">Contact Me</h2>
+				<span class="section__subtitle">Get in Touch</span>
+
+				<div class="contact__container container grid">
+					<div>
+						<div class="contact__information">
+							<i class="uil uil-phone contact__icon"></i>
+
+							<div>
+								<h3 class="contact__title">Call Me</h3>
+								<span class="contact__subtitle">+62 424 833 056</span>
+							</div>
+						</div>
+
+						<div class="contact__information">
+							<i class="uil uil-envelope contact__icon"></i>
+
+							<div>
+								<h3 class="contact__title">Email</h3>
+								<!-- <span class="contact__subtitle">erolbicer@live.com</span> -->
+								<p>
+									<a class="contact__subtitle" href="mailto:erolbicer@live.com"
+										>annisanye99@gmail.com</a
+									>
+								</p>
+							</div>
+						</div>
+
+						<div class="contact__information">
+							<i class="uil uil-map-marker contact__icon"></i>
+
+							<div>
+								<h3 class="contact__title">Location</h3>
+								<span class="contact__subtitle">Melbourne, Victoria</span>
+							</div>
+						</div>
+					</div>
+
+					<form action="" class="contact__form grid">
+						<div class="contact__inputs grid">
+							<div class="contact__content">
+								<label for="" class="contact__label">Full Name</label>
+								<input
+									type="text"
+									placeholder="Enter full name"
+									class="contact__input"
+									id="fullName"
+									onkeyup="validateName()"
+								/>
+								<span id="name-error" class="contact__subtitle"></span>
+							</div>
+							<div class="contact__content">
+								<label for="" class="contact__label">Email</label>
+								<input
+									type="email"
+									placeholder="Enter email address"
+									class="contact__input"
+									id="email_id"
+									onkeyup="validateEmail()"
+								/>
+								<span id="email-error" class="contact__subtitle"></span>
+							</div>
+						</div>
+						<div class="contact__content">
+							<label for="" class="contact__label">Subject</label>
+							<input
+								type="text"
+								id="subject"
+								placeholder="Enter a subject line"
+								class="contact__input"
+							/>
+						</div>
+						<div class="contact__content">
+							<label for="" class="contact__label">Message</label>
+							<textarea
+								name=""
+								cols="0"
+								rows="7"
+								placeholder="Enter your message"
+								class="contact__input"
+								id="message"
+								onkeyup="validateMessage()"
+							></textarea>
+							<span id="message-error" class="contact__subtitle"></span>
+						</div>
+						<div>
+							<a onclick="return SendMail()" class="button button--flex">
+								Send Message
+								<i class="uil uil-message button__icon"></i>
+							</a>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+<!--==================== FOOTER ====================-->
+		<footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <a href="#" class="footer__title">Annisa Nye</a><br>
+                        <span class="footer__subtitle"><em>Aspiring Web Developer</em></span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#home" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#paper" class="footer__link">Reports</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/annisanye/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/annisa-nye" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; All rights reserved.</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
