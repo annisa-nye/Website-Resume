@@ -297,7 +297,8 @@ img {
 }
 
 .home__data {
-	background-image: url(../img/about\ me.jpg);
+	background-image: url(../img/hhholographic.png);
+	padding: 1rem;
 }
 .home__img {
 	border-radius: 0.5rem;
