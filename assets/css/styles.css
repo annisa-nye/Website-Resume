@@ -299,6 +299,7 @@ img {
 .home__data {
 	background-image: url(../img/hhholographic.png);
 	padding: 1rem;
+	border-radius: 0.5rem;
 }
 .home__img {
 	border-radius: 0.5rem;
