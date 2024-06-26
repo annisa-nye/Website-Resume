@@ -23,7 +23,7 @@
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
 	/*========== Font and typography ==========*/
-	--body-font: "Plus Jakarta Sans", sans-serif;
+	--body-font: 'Plus Jakarta Sans', sans-serif;
 
 	/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
 	--big-font-size: 2rem;
@@ -282,9 +282,10 @@ img {
 }
 
 .home__social {
-	display: grid;
-	row-gap: 1rem;
-	grid-area: 1fr;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	gap: 12px;
 }
 
 .home__social-icon {
@@ -294,6 +295,13 @@ img {
 
 .home__social-icon:hover {
 	color: var(--first-color-alt);
+}
+
+.home__social__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 12px;
 }
 
 .home__data {
@@ -1082,6 +1090,11 @@ img {
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
+	/* collapse home__social*/
+	.home__social {
+		display: flex;
+	}
+
 	.container {
 		margin-left: var(--mb-1);
 		margin-right: var(--mb-1);
