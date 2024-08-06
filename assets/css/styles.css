@@ -1160,6 +1160,11 @@ button.button:hover {
 		display: flex;
 	}
 
+	.home_subtitle {
+		font-size: var(--small-font-size);
+		display: inlin\;
+	}
+
 	.container {
 		margin-left: var(--mb-1);
 		margin-right: var(--mb-1);
@@ -1170,10 +1175,6 @@ button.button:hover {
 	}
 	.nav__list {
 		column-gap: 0;
-	}
-
-	.home__content {
-		grid-template-columns: 1fr 2fr;
 	}
 
 	.skills__titles {
@@ -1225,6 +1226,15 @@ button.button:hover {
 		grid-template-columns: 1fr 1fr;
 		padding: 0;
 		gap: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.home__subtitle {
+		font-size: var(--normal-font-size);
+	}
+	.home__description {
+		font-size: var(--small-font-size);
 	}
 }
 
