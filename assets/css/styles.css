@@ -420,15 +420,40 @@ img {
 }
 
 .about__description {
-	text-align: justify;
-	margin-bottom: var(--mb-2-5);
+    text-align: justify;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__skill-item {
+    background-color: var(--container-color);
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.about__skill-title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+    color: var(--title-color);
+}
+
+.about__skill-description {
+    font-size: var(--small-font-size);
 }
 
 .about__info {
-	display: flex;
-	justify-content: space-evenly;
-	margin-bottom: var(--mb-2-5);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
 }
+
 
 .about__info-name {
 	font-size: var(--smaller-font-size);
@@ -981,6 +1006,24 @@ img {
 	border: none;
 	outline: none;
 	padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+button.button {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    border: none;
+}
+
+button.button.button--flex {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+button.button:hover {
+    background-color: var(--first-color-alt);
 }
 
 /*==================== FOOTER ====================*/
