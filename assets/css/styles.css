@@ -139,7 +139,7 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-	padding: 2rem 0 4rem;
+	padding: 2rem 0 2rem;
 }
 
 .section__title {
@@ -440,7 +440,7 @@ img {
 
 .about__skills {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     gap: 1.5rem;
     margin-bottom: var(--mb-2-5);
 }
@@ -448,19 +448,19 @@ img {
 .about__skill-item {
     font-size: var(--small-font-size);
     background-color: var(--container-color);
-    padding: 1.25rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .about__skill-title {
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     margin-bottom: var(--mb-0-5);
     color: var(--title-color);
 }
 
 .about__skill-description {
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
 }
 
 .about__info {
@@ -499,7 +499,7 @@ img {
     .about__container {
         flex-direction: column;
 	}
-
+}
 /*==================== SKILLS ====================*/
 .skills__container {
 	row-gap: 0;
@@ -982,7 +982,7 @@ img {
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
-	row-gap: 3rem;
+	row-gap: 1rem;
 }
 
 .contact__information {
