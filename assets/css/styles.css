@@ -83,6 +83,7 @@ body.dark-theme {
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 	--home-data-bg: var(--home-data-bg-dark);
+	--footer-color: var(--first-color-second);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -112,6 +113,9 @@ body.dark-theme .home__subtitle, body.dark-theme .home__description {
 	color:#fff;
 }
 
+body.dark-theme .footer__bg {
+	background-color: var(--footer-color);
+}
 
 
 /*==================== BASE ====================*/
@@ -323,13 +327,8 @@ img {
 
 .home__data {
 	background-image: var(--home-data-bg-light);
-	padding: 1rem;
+	padding: 1.5rem;
 	border-radius: 0.5rem;
-}
-.home__img {
-	border-radius: 0.5rem;
-	justify-self: center;
-	align-self: center;
 }
 
 .home__title {
