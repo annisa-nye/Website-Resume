@@ -22,6 +22,10 @@
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
+	/*========== Background image ==========*/
+	--home-data-bg-light: url(../img/hhholographic-light.png);
+	--home-data-bg-dark: url(../img/hhholographic-dark.png);
+
 	/*========== Font and typography ==========*/
 	--body-font: 'Plus Jakarta Sans', sans-serif;
 
@@ -78,6 +82,7 @@ body.dark-theme {
 	--container-color: hsl(var(--hue-color), 29%, 16%);
 	--scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+	--home-data-bg: var(--home-data-bg-dark);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -96,6 +101,18 @@ body.dark-theme {
 .change-theme:hover {
 	color: var(--first-color);
 }
+
+/*========== Background Dark theme ==========*/
+body.dark-theme .home__data {
+	background-image: var(--home-data-bg-dark);
+	background-position: 4% 23%;
+}
+
+body.dark-theme .home__subtitle, body.dark-theme .home__description {
+	color:#fff;
+}
+
+
 
 /*==================== BASE ====================*/
 * {
@@ -305,7 +322,7 @@ img {
 }
 
 .home__data {
-	background-image: url(../img/hhholographic.png);
+	background-image: var(--home-data-bg-light);
 	padding: 1rem;
 	border-radius: 0.5rem;
 }
@@ -1077,12 +1094,16 @@ button.button:hover {
 .footer__links {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	padding: 0;
+	padding-left: 1rem;
 	gap: 0.5rem;
 }
 
 .footer__link:hover {
 	color: var(--first-color-lighter);
+}
+
+.footer__socials {
+	padding-left: 1rem;;
 }
 
 .footer__social {
@@ -1105,7 +1126,7 @@ button.button:hover {
 .footer__title,
 .footer__subtitle,
 .footer__link,
-.footer__social {
+.footer__social, .footer__links li {
 	color: #fff;
 }
 
