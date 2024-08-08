@@ -301,13 +301,14 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	max-width: 800px;
 
 }
 
 .home__content {
 	align-items: center;
-	justify-content: ;
+	justify-content: center ;
 }
 
 .home__social {
@@ -337,7 +338,6 @@ img {
 	background-image: var(--home-data-bg-light);
 	padding: 1.5rem;
 	border-radius: 0.5rem;
-	width: 100%;
 }
 
 .home__title {
@@ -358,7 +358,6 @@ img {
 }
 
 .home__scroll {
-	display: none;
 }
 
 .home__scroll-button {
