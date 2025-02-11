@@ -825,6 +825,7 @@ img {
 /*==================== PAPER ====================*/
 .paper__container {
 	overflow: initial;
+	margin-bottom: 2rem;
 }
 
 .paper__content {
@@ -912,117 +913,7 @@ img {
 	justify-self: center;
 }
 
-/*==================== TESTIMONIAL ====================*/
-.testimonial__data,
-.testimonial__header {
-	display: flex;
-}
 
-.testimonial__data {
-	justify-content: space-between;
-	margin-bottom: var(--mb-1);
-}
-
-.testimonial__img {
-	width: 60px;
-	height: 60px;
-	border-radius: 0.5rem;
-	margin-right: var(--mb-0-75);
-}
-
-.testimonial__name {
-	font-size: var(--h3-font-size);
-	font-weight: var(--font-medium);
-}
-
-.testimonial__client {
-	font-size: var(--small-font-size);
-	color: var(--text-color-light);
-}
-
-.testimonial__description {
-	text-align: justify;
-	margin-bottom: var(--mb-1-5);
-}
-
-.testimonial__icon-star {
-	color: var(--first-color);
-}
-
-.swiper .swiper-pagination-testimonial {
-	bottom: 0;
-}
-
-/*==================== VIDEOS ====================*/
-
-.videos__content-top {
-	display: grid;
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	margin-bottom: -0.5rem;
-}
-
-.videos__content {
-	display: grid;
-	grid-template-columns: repeat(2, minmax(0, 1fr));
-	gap: 1rem;
-	/* margin-bottom: var(--mb-2-5); */
-}
-
-.videos__subtitle {
-	text-align: center;
-	display: block;
-	font-size: var(--medium-font-size);
-	margin-bottom: 0.1rem;
-}
-
-/*==================== iFRAME ====================*/
-
-.iframe__container {
-	max-width: 100%;
-	aspect-ratio: auto 16 / 9;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.iframe {
-	border-radius: 1rem;
-	border: none;
-}
-
-/*==================== PRESENTATION ====================*/
-
-.presentation__content {
-	display: grid;
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	padding: 0;
-	gap: 1rem;
-	/* margin-bottom: var(--mb-2-5); */
-}
-
-.presentation__subtitle {
-	text-align: center;
-	display: block;
-	font-size: var(--medium-font-size);
-	margin-bottom: 0.1rem;
-}
-
-/*==================== MEETING ====================*/
-
-/* .zeeg__container {
-  max-width: 100%;
-  height: 780px;
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center;
-  }
-
-  .iframe-meeting{
-    border-radius: 1rem;
-    border: 1px solid #f1f1f1;
-  } */
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
