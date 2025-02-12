@@ -1435,17 +1435,16 @@ FOOTER ====================
                 border-radius: 10px;
                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
                 display: flex;
-                align-items: center;
+                align-items: flex-start;
                 gap: 2rem;
                 max-width: 800px;
             }
             .footer__logo-container {
                 display: flex;
-                align-items: center;
+                align-items: flex-start;
             }
             .footer__logo-container img {
                 max-width: 120px;
-                align-self: flex-start;
             }
             .footer__info {
                 display: flex;
@@ -1458,7 +1457,6 @@ FOOTER ====================
                 justify-content: flex-start;
             }
             .footer__contact p,
-            .footer__skills p,
             .footer__tagline {
                 margin: 0.5rem 0;
             }
