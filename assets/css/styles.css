@@ -160,7 +160,7 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-	padding: 2rem 0 2rem;
+	padding: 1rem 0 1rem;
 }
 
 .section__title {
@@ -919,6 +919,8 @@ img {
                 padding: 3rem 0;
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
+                align-items: center;
             }
             .footer__business-card {
                 display: flex;
@@ -929,19 +931,18 @@ img {
                 background: white;
                 padding: 2rem;
                 border-radius: 10px;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
                 display: flex;
-                align-items: center;
+                align-items: flex-start;
                 gap: 2rem;
                 max-width: 800px;
             }
             .footer__logo-container {
                 display: flex;
-                align-items: center;
+                align-items: flex-start;
             }
             .footer__logo-container img {
                 max-width: 120px;
-                align-self: flex-start;
             }
             .footer__info {
                 display: flex;
@@ -954,9 +955,13 @@ img {
                 justify-content: flex-start;
             }
             .footer__contact p,
-            .footer__skills p,
-            .footer__tagline {
+            .footer__skills p {
                 margin: 0.5rem 0;
+            }
+            .footer__tagline {
+                font-size: var(--small-font-size);
+                font-style: italic;
+                margin-top: 0.5rem;
             }
             .footer__socials a {
                 margin-right: 0.5rem;
@@ -965,6 +970,8 @@ img {
                 text-align: center;
                 color: var(--text-color-light);
                 margin-top: 2rem;
+                width: 100%;
+                padding-top: 1rem;
             }
             .contact__icon {
                 font-size: 1.5rem;
@@ -976,6 +983,8 @@ img {
                 color: var(--text-color);
             }
 
+			
+			
 /* OLD CONTACT AND FOOTER SECTION
 
 ==================== CONTACT ME ====================
@@ -1477,6 +1486,18 @@ FOOTER ====================
                 color: var(--text-color);
             }
 
+			 /* Preserve Light Mode Colors in Dark Mode */
+            body.dark-theme .footer__card {
+                background: white !important;
+                color: black !important;
+            }
+            body.dark-theme .footer__name,
+            body.dark-theme .footer__title,
+            body.dark-theme .footer__tagline,
+            body.dark-theme .contact__subtitle,
+            body.dark-theme .footer__skills p {
+                color: black !important;
+            }
 
 
 /* For large devices */
