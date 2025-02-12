@@ -370,8 +370,6 @@ img {
 	margin-bottom: var(--mb-2);
 }
 
-.home__scroll {
-}
 
 .home__scroll-button {
 	color: var(--first-color);
@@ -677,6 +675,16 @@ img {
 	display: grid;
 	grid-template-columns: 1fr max-content 1fr;
 	column-gap: 1.5rem;
+}
+
+/* Align text on the left side to the right */
+.qualification__data > div:first-child:not(:empty) {
+	text-align: right;
+}
+
+/* Align text on the right side to the left */
+.qualification__data > div:last-child:not(:empty) {
+	text-align: left;
 }
 
 .qualification__title {
