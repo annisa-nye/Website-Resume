@@ -1435,7 +1435,8 @@ FOOTER ====================
 	.project__data {
 		padding-top: 0.8rem;
 	}
-
+}
+/* FOOTER */	
             .footer__bg {
                 background-color: var(--first-color-second);
                 padding: 3rem 0;
@@ -1451,7 +1452,7 @@ FOOTER ====================
             }
             .footer__card {
                 background: white;
-                padding: 2rem;
+                padding: 3rem;
                 border-radius: 10px;
                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
                 display: flex;
@@ -1509,6 +1510,18 @@ FOOTER ====================
             body.dark-theme .footer__skills p {
                 color: black !important;
             }
+			.footer__contact-item {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                font-size: 0.9rem;
+            }
+			@media screen and (max-width: 455px) {
+				.contact__subtitle {
+				font-size: var(--smaller-font-size);
+				}
+
+			}
 
 
 /* For large devices */
